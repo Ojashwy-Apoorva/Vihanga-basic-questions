@@ -1,0 +1,18 @@
+//Write a C program to enter length and breadth of a rectangle and find its perimeter.
+
+#include <stdio.h>
+
+int main() {
+    int l, w, p;
+
+    printf("Enter the length & width of the rectangle:: \n");
+    scanf("%d", &l);
+    scanf("%d", &w);
+
+    // Calculate perimeter of rectangle
+    p = 2 * (l + w);
+
+    // It will print the final output
+    printf("\nThe Perimeter of rectangle = %d units ", p);
+    return 0;
+}
